@@ -16,7 +16,7 @@
 
 /*ETIQUETAS UTILITARIAS*/
 
-.btn{
+.btn-mine{
     font-size: 1.3rem;
     text-decoration: none;
     border-bottom: solid 5px burlywood;
@@ -52,16 +52,12 @@
 .header__logo{
     text-decoration: none;
     font-family: Rofaela;
-    font-size: 3rem;
+    font-size: 2rem;
     color: whitesmoke;
     margin-left: 1rem;
 }
 
 .header__item{
-    display: inline-block;
-    padding: 0.5rem;
-    background-color: #ffd2b89c;
-    border-radius: 20px;
     padding: 0.5rem 1rem;
 }
 
