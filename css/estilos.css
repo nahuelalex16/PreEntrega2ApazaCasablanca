@@ -52,7 +52,6 @@
 .header__logo{
     text-decoration: none;
     font-family: Rofaela;
-    font-size: 2rem;
     color: whitesmoke;
     margin-left: 1rem;
 }
@@ -307,9 +306,9 @@ section.info__principal h1.infocard__titulo{
     padding: 5rem;
 }
 
-/*FOOTER*/
+/*FOOTER (obsoleto)*/
 
-.footer{
+/*.footer{
     background-color: rgb(248, 234, 229);
     display: flex;
     justify-content: center;
@@ -326,4 +325,4 @@ section.info__principal h1.infocard__titulo{
 .footer__link{
     text-decoration: none;
     color: rgba(75, 75, 75, 0.842);
-}
+}*/
