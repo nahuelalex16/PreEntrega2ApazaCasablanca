@@ -57,36 +57,38 @@
         <!--FIN BANNER CONTACTO-->
 
         <!--FORMULARIO CONTACTO-->
-        <section class="form">
-            <form action="#" method="get" enctype="text/plain">
-                <div class="form__container">
-                    <div class="form__div">
-                        <label class="form__desc" for="name">Nombre y Apellido</label><!--el atributo "name" de input y "for" de label deben coincidir-->
-                        <input class="form__input" type="text" name="name" id="name" required placeholder="Introduzca su nombre y apellido">
+        <section class="container-fluid bg-form">
+            <div class="row">
+                <form action="#" method="get" enctype="text/plain" class="col-lg-7 col-md-12 row">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <label class="badge bg-secondary" for="name">Nombre y Apellido</label><!--el atributo "name" de input y "for" de label deben coincidir-->
+                            <input class="form-control form__input" type="text" name="name" id="name" required placeholder="Introduzca su nombre y apellido">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label class="badge bg-secondary" for="email">Email</label>
+                            <input class="form-control form__input" type="email" name="email" id="email" required placeholder="tucorreo@ejemplo.com">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label class="badge bg-secondary" for="phone">Telefono</label>
+                            <input class="form-control form__input" type="tel" name="phone" id="phone">
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <label class="badge bg-secondary" for="asunto">Asunto</label>
+                            <input class="form-control form__input" type="text" name="asunto" id="asunto">
+                        </div>
+                        <div class="col-12">
+                            <p><textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="8" placeholder="Ingrese su mensaje"></textarea></p>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-secondary">Enviar Formulario</button>
+                        </div>
                     </div>
-                    <div class="form__div">
-                        <label class="form__desc" for="email">Email</label>
-                        <input class="form__input" type="email" name="email" id="email" required placeholder="tucorreo@ejemplo.com">
-                    </div>
-                    <div class="form__div">
-                        <label class="form__desc" for="phone">Telefono</label>
-                        <input class="form__input" type="tel" name="phone" id="phone">
-                    </div>
-                    <div class="form__div">
-                        <label class="form__desc" for="asunto">Asunto</label>
-                        <input class="form__input" type="text" name="asunto" id="asunto">
-                    </div>
-                </div>
-                <div>
-                    <p><textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea></p>
-                </div>
-                <div>
-                    <input id="submit" type="submit" value="Enviar formulario">
-                </div>
+                </form>
 
                 <!--GOOGLE MAPS-->
-                <div class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=ciudad%20autonoma%20de%20buenos%20aires&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            </form>
+                <div class="mapouter col-lg-5 col-md-12"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=ciudad%20autonoma%20de%20buenos%20aires&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
         </section>
 
         <!--FIN FORMULARIO CONTACTO-->

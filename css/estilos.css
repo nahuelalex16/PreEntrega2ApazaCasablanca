@@ -216,13 +216,9 @@
 
 /*FORMULARIO*/
 
-.form{
+.bg-form{
     background-color: whitesmoke;
-    display: flex;
-    flex-direction: row-reverse;
-    align-content: flex-end;
-    justify-content: flex-start;
-    position: relative;
+    padding: 2rem;
 }
 
 .form__container{
@@ -237,17 +233,14 @@
 
 .form__div{
     margin: 0.5rem 2rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .form__desc{
     font-size: 1.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form__input{
-    padding: 0.5rem;
+    margin: 0.5rem;
     width: 100%;
 }
 
@@ -286,12 +279,12 @@
 
 /*IDs y ETIQUETAS ESPECIFICAS*/
 
-#mensaje{
+/*#mensaje{
     position: absolute;
     left: 10%;
     top: 12rem;
     width: 40%;
-}
+}*/
 
 #submit{
     font-size: 1.5rem;
@@ -317,7 +310,7 @@ section.info__principal h1.infocard__titulo{
     padding: 5rem;
 }
 
-section.container-fluid{
+#bg-info{
     background: url(../img/fondo_nav2.jpg);
     padding: 3rem;
 }
