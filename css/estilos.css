@@ -38,6 +38,13 @@
     border-radius: 30%;
 }
 
+.color-1{
+    color: rgb(255, 146, 132);
+}
+
+.row-items-space{
+    justify-content: space-around;
+}
 /*HEADER*/
 
 .header{
@@ -140,17 +147,15 @@
     margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
-    background: url(../img/fondo_nav2.jpg);
 }
 
 .infocard{
-    display: flex;
+    margin: 2rem 0;
     background-color: antiquewhite;
 }
 
 .infocard--2{
-    display: flex;
-    flex-direction: row-reverse;
+    margin: 2rem 0;
     background-color: bisque;
 }
 
@@ -183,7 +188,7 @@
 }
 
 .infocard__video{
-    width: 30%;
+    min-width: 30%;
 }
 
 .infocard__list{
@@ -302,8 +307,19 @@
     margin-right: 2.5rem;
 }
 
+#catalogo{
+    padding: 3rem;
+}
+
+
+
 section.info__principal h1.infocard__titulo{
     padding: 5rem;
+}
+
+section.container-fluid{
+    background: url(../img/fondo_nav2.jpg);
+    padding: 3rem;
 }
 
 /*FOOTER (obsoleto)*/

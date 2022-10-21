@@ -4496,6 +4496,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin: 15px;
 }
 .card > hr {
   margin-right: 0;
@@ -5988,6 +5989,7 @@ textarea.form-control-lg {
   display: none;
   float: left;
   width: 100%;
+  max-height: 80vh;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
